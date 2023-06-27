@@ -15,6 +15,9 @@ const NavBar = styled.ul`
   flex-direction: row;
   justify-content: space-around;
   margin: auto;
+  padding: auto;
+  margin-left: 0;
+  padding-left: 0;
 `;
 
 const NavItem = styled.li`
@@ -35,6 +38,9 @@ export default function Navigation() {
     <>
       <NavContainer>
         <NavBar>
+          <NavItem>
+            <NavLink href="/">Home</NavLink>
+          </NavItem>
           <NavItem>
             <NavLink href="/booking">Bookings</NavLink>
           </NavItem>
