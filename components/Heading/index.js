@@ -7,11 +7,10 @@ const MainHeading = styled.h1`
   top: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   letter-spacing: 3px;
 `;
 
