@@ -12,12 +12,13 @@ const MainHeading = styled.h1`
   width: 100%;
   text-align: center;
   font-size: 50px;
+  letter-spacing: 3px;
 `;
 
 export default function Heading() {
   return (
     <div>
-      <MainHeading>Nightowls Audio</MainHeading>
+      <MainHeading>NIGHTOWLS AUDIO</MainHeading>
     </div>
   );
 }
