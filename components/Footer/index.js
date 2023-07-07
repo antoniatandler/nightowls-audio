@@ -5,17 +5,15 @@ const FootBarContainer = styled.div`
   position: fixed;
   bottom: 0;
   padding: auto;
-  height: 50px;
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
   width: 100%;
+  margin: auto;
 `;
 
 const FootBar = styled.ul`
   display: flex;
   justify-content: flex-end;
-  //   padding: 10px;
-  //   margin: 10px;
 `;
 
 const FootBarItem = styled.li`

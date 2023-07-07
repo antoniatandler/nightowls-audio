@@ -7,11 +7,12 @@ const MainHeading = styled.h1`
   top: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   width: 100%;
   text-align: center;
   font-size: 80px;
   letter-spacing: 3px;
+  z-index: +4;
 `;
 
 export default function Heading() {
