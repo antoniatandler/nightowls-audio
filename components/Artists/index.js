@@ -123,7 +123,9 @@ export default function Artists() {
               ArtistImageIsVisible={!ArtistImageIsVisible}
             />
             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Bjarne
+              <ArtistLink href="/bookings/bjarne">
+                ‚ Artist Bio Bjarne
+              </ArtistLink>
             </ArtistBio>
           </div>
           <ArtistBioHeading>- TECHNO DJ -</ArtistBioHeading>

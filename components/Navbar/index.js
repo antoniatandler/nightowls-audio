@@ -135,7 +135,7 @@ export default function Navigation() {
                 <SubNavLink href="/bookings/annar">ANNÅR</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/bookings/booking">BJARNE</SubNavLink>
+                <SubNavLink href="/bookings/bjarne">BJARNE</SubNavLink>
               </SubNavItem>
               <SubNavItem>
                 <SubNavLink href="/booking/">CYBERTRON</SubNavLink>
