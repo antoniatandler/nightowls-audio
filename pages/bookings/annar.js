@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Image from "next/image";
 import Link from "next/link";
 
-const MainContainer = styled.div`
+export const MainContainer = styled.div`
   width: 100%;
   height: 550px;
   margin-top: 170px;
@@ -16,7 +16,7 @@ const MainContainer = styled.div`
   // align-items: center;
 `;
 
-const SingleArtistImage = styled(Image)`
+export const SingleArtistImage = styled(Image)`
   position: absolute;
   right: 30px;
   height: 300px;
@@ -31,8 +31,8 @@ export const HeadingSection = styled.section`
   position: absolute;
   margin: auto;
   margin-top: 20px;
-  margin-left: 20px;
-  width: 75%;
+  margin-left: 5%;
+  width: 70%;
   text-align: center;
   letter-spacing: 2px;
 `;
@@ -55,11 +55,11 @@ export const Bio = styled.text`
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin: auto;
-  width: 75%;
+  width: 70%;
   height: fit-content;
   position: absolute;
   margin-top: 130px;
-  margin-left: 20px;
+  margin-left: 5%;
   padding: 20px;
   text-align: center;
 `;
@@ -105,7 +105,7 @@ export const BookingButton = styled(Link)`
   }
 `;
 
-const SocialsIcon = styled(Image)`
+export const SocialsIcon = styled(Image)`
   background-color: white;
   border-radius: 100%;
 
@@ -156,7 +156,7 @@ export default function Annår() {
           ------------- Text ------------ */}
         </Bio>
         <Links>
-          <Link href="https://www.soundcloud.com">
+          <Link href="https://soundcloud.com/anna-ewald" target="_blank">
             <SocialsIcon
               src="/../public/icons/klangwolke.png"
               width={70}
@@ -165,7 +165,7 @@ export default function Annår() {
             />
           </Link>
           Soundcloud
-          <Link href="https://www.instagram.com">
+          <Link href="https://www.instagram.com/annaewld/" target="_blank">
             <SocialsIcon
               src="/../public/icons/instagram.png"
               width={70}
