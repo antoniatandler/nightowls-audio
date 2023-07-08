@@ -120,7 +120,11 @@ export default function Navigation() {
             <NavLink href="/">HOME</NavLink>
           </NavItem>
           <NavItem AgencyIsOpen={AgencyIsOpen}>
-            <NavLink href="/booking" onMouseOver={toggleAgencyMenu}>
+            <NavLink
+              href="/bookings/booking"
+              onMouseOver={toggleAgencyMenu}
+              onMouseLeave={toggleAgencyMenu}
+            >
               NIGHTOWLS AGENCY
             </NavLink>
             <SubNavItemListAgency
@@ -128,10 +132,10 @@ export default function Navigation() {
               onMouseLeave={toggleAgencyMenu}
             >
               <SubNavItem>
-                <SubNavLink href="/booking/">ANNÂR</SubNavLink>
+                <SubNavLink href="/bookings/annar">ANNÅR</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">BJARNE</SubNavLink>
+                <SubNavLink href="/bookings/booking">BJARNE</SubNavLink>
               </SubNavItem>
               <SubNavItem>
                 <SubNavLink href="/booking/">CYBERTRON</SubNavLink>
@@ -163,7 +167,11 @@ export default function Navigation() {
             </SubNavItemListAgency>
           </NavItem>
           <NavItem EventsIsOpen={EventsIsOpen}>
-            <NavLink href="/events" onMouseOver={toggleEventsMenu}>
+            <NavLink
+              href="/events"
+              onMouseOver={toggleEventsMenu}
+              onMouseLeave={toggleEventsMenu}
+            >
               EVENTS
             </NavLink>
             <SubNavItemListEvents
@@ -179,7 +187,11 @@ export default function Navigation() {
             </SubNavItemListEvents>
           </NavItem>
           <NavItem RentailAndServiceIsOpen={RentailAndServiceIsOpen}>
-            <NavLink href="/rentail" onMouseOver={toggleRentailAndServiceMenu}>
+            <NavLink
+              href="/rentail"
+              onMouseOver={toggleRentailAndServiceMenu}
+              onMouseLeave={toggleRentailAndServiceMenu}
+            >
               RENTAIL & SERVICE
             </NavLink>
             <SubNavItemListRentailAndService
