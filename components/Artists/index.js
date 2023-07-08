@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 const ArtistContainer = styled.div`
   display: flex;
@@ -67,15 +68,24 @@ const ArtistName = styled.h3`
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 `;
 
+const ArtistLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: darkred;
+  }
+`;
+
 export default function Artists() {
   const [ArtistBioIsVisible, setArtistBioIsVisible] = useState(false);
   const [ArtistImageIsVisible, setArtistImageIsVisible] = useState(true);
-  const [ArtistIsSelected, setArtistIsSelected] = useState(false);
+  // const [ArtistIsSelected, setArtistIsSelected] = useState(false);
 
   const toggleArtistBio = () => {
     setArtistBioIsVisible(!ArtistBioIsVisible);
     setArtistImageIsVisible(!ArtistImageIsVisible);
-    setArtistIsSelected(!ArtistIsSelected);
+    // setArtistIsSelected(!ArtistIsSelected);
   };
 
   return (
@@ -85,7 +95,7 @@ export default function Artists() {
           onMouseEnter={toggleArtistBio}
           onMouseLeave={toggleArtistBio}
         >
-          <ArtistName>ANNÂR</ArtistName>
+          <ArtistName>ANNÅR</ArtistName>
           <div>
             <ArtistImage
               src={"/../public/images/logo.jpg"}
@@ -95,7 +105,7 @@ export default function Artists() {
               ArtistImageIsVisible={!ArtistImageIsVisible}
             />
             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Annâr
+              <ArtistLink href="/bookings/annar">Artist Bio Annâr</ArtistLink>
             </ArtistBio>
           </div>
           <ArtistBioHeading>- DJ -</ArtistBioHeading>
