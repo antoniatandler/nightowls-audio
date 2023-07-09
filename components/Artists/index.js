@@ -78,231 +78,341 @@ const ArtistLink = styled(Link)`
 `;
 
 export default function Artists() {
-  const [ArtistBioIsVisible, setArtistBioIsVisible] = useState(false);
-  const [ArtistImageIsVisible, setArtistImageIsVisible] = useState(true);
-  // const [ArtistIsSelected, setArtistIsSelected] = useState(false);
+  //////////////////////////
+  //   const [ArtistBioIsVisible, setArtistBioIsVisible] = useState(false);
+  //   const [ArtistImageIsVisible, setArtistImageIsVisible] = useState(true);
 
-  const toggleArtistBio = () => {
-    setArtistBioIsVisible(!ArtistBioIsVisible);
-    setArtistImageIsVisible(!ArtistImageIsVisible);
-    // setArtistIsSelected(!ArtistIsSelected);
+  //   const toggleArtistBio = () => {
+  //     setArtistBioIsVisible(!ArtistBioIsVisible);
+  //     setArtistImageIsVisible(!ArtistImageIsVisible);
+  //   };
+
+  //   return (
+  //     <>
+  //       <ArtistContainer>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>ANNÅR</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/logo.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               <ArtistLink href="/bookings/annar">Artist Bio Annâr</ArtistLink>
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>BJARNE</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/bjarne.jpg"}
+  //               width={250}
+  //               height={250}
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               <ArtistLink href="/bookings/bjarne">Artist Bio Bjarne</ArtistLink>
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- TECHNO DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>CYBERTRON</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/cybertron.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Cybertron
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>FRANK CZER</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/frank.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Frank Czer
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>GANDAALV</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/frank.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Gandaalv
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>INFECTED</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/bjarne.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Infected
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>JANOSCH</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/janosch.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Janosch
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>JOHANNA MEMMLER</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/logo.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Johanna Memmler
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>KLEX GEIST</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/klexgeist.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Klex Geist
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>PSYLENCE</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/psylence.jpeg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Psylence
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //         <ArtistPreview
+  //           onMouseEnter={toggleArtistBio}
+  //           onMouseLeave={toggleArtistBio}
+  //         >
+  //           <ArtistName>SON OF SCOBA</ArtistName>
+  //           <div>
+  //             <ArtistImage
+  //               src={"/../public/images/logo.jpg"}
+  //               width={250}
+  //               height={250}
+  //               size="contain"
+  //               ArtistImageIsVisible={!ArtistImageIsVisible}
+  //             />
+  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
+  //               Artist Bio Son of Scoba
+  //             </ArtistBio>
+  //           </div>
+  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
+  //         </ArtistPreview>
+  //       </ArtistContainer>
+  //     </>
+  //   );
+  // }
+
+  const [artists, setArtists] = useState([
+    {
+      name: "ANNAR",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/logo.jpg",
+    },
+    {
+      name: "BJARNE",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/bjarne.jpg",
+    },
+    {
+      name: "CYBERTRON",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/cybertron.jpg",
+    },
+    {
+      name: "FRANK CZER",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/frank.jpg",
+    },
+    {
+      name: "GANDAALV",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/frank.jpg",
+    },
+    {
+      name: "INFECTED",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/bjarne.jpg",
+    },
+    {
+      name: "JANOSCH",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/janosch.jpg",
+    },
+    {
+      name: "JOHANNA MEMMLER",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/logo.jpg",
+    },
+    {
+      name: "KLEX-GEIST",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/klexgeist.jpg",
+    },
+    {
+      name: "PSYLENCE",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/psylence.jpeg",
+    },
+    {
+      name: "SON OF SCOBA",
+      bioIsVisible: false,
+      imageIsVisible: true,
+      imageSrc: "/../public/images/logo.jpg",
+    },
+  ]);
+
+  const toggleArtistBio = (index) => {
+    setArtists((prevArtists) => {
+      const updatedArtists = [...prevArtists];
+      updatedArtists[index] = {
+        ...updatedArtists[index],
+        bioIsVisible: !updatedArtists[index].bioIsVisible,
+        imageIsVisible: !updatedArtists[index].imageIsVisible,
+      };
+      return updatedArtists;
+    });
   };
 
   return (
     <>
       <ArtistContainer>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>ANNÅR</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/logo.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              <ArtistLink href="/bookings/annar">Artist Bio Annâr</ArtistLink>
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>BJARNE</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/bjarne.jpg"}
-              width={250}
-              height={250}
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              <ArtistLink href="/bookings/bjarne">
-                ‚ Artist Bio Bjarne
-              </ArtistLink>
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- TECHNO DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>CYBERTRON</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/cybertron.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Cybertron
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>FRANK CZER</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/frank.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Frank Czer
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>GANDAALV</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/frank.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Gandaalv
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>INFECTED</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/bjarne.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Infected
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>JANOSCH</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/janosch.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Janosch
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>JOHANNA MEMMLER</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/logo.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Johanna Memmler
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>KLEX GEIST</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/klexgeist.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Klex Geist
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>PSYLENCE</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/psylence.jpeg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Psylence
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
-        <ArtistPreview
-          onMouseEnter={toggleArtistBio}
-          onMouseLeave={toggleArtistBio}
-        >
-          <ArtistName>SON OF SCOBA</ArtistName>
-          <div>
-            <ArtistImage
-              src={"/../public/images/logo.jpg"}
-              width={250}
-              height={250}
-              size="contain"
-              ArtistImageIsVisible={!ArtistImageIsVisible}
-            />
-            <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-              Artist Bio Son of Scoba
-            </ArtistBio>
-          </div>
-          <ArtistBioHeading>- DJ -</ArtistBioHeading>
-        </ArtistPreview>
+        {artists.map((artist, index) => (
+          <ArtistPreview
+            key={index}
+            onMouseEnter={() => toggleArtistBio(index)}
+            onMouseLeave={() => toggleArtistBio(index)}
+          >
+            <ArtistName>{artist.name}</ArtistName>
+            <div>
+              <ArtistImage
+                src={artist.imageSrc}
+                width={250}
+                height={250}
+                size="contain"
+                ArtistImageIsVisible={!artist.imageIsVisible}
+              />
+              <ArtistBio ArtistBioIsVisible={artist.bioIsVisible}>
+                <ArtistLink href={`/bookings/${artist.name.toLowerCase()}`}>
+                  Artist Bio {artist.name}
+                </ArtistLink>
+              </ArtistBio>
+            </div>
+            <ArtistBioHeading>- DJ -</ArtistBioHeading>
+          </ArtistPreview>
+        ))}
       </ArtistContainer>
     </>
   );

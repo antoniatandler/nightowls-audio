@@ -121,7 +121,7 @@ export default function Navigation() {
           </NavItem>
           <NavItem AgencyIsOpen={AgencyIsOpen}>
             <NavLink
-              href="/bookings/booking"
+              href="/bookings/bookings"
               onMouseOver={toggleAgencyMenu}
               onMouseLeave={toggleAgencyMenu}
             >
@@ -138,31 +138,35 @@ export default function Navigation() {
                 <SubNavLink href="/bookings/bjarne">BJARNE</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">CYBERTRON</SubNavLink>
+                <SubNavLink href="/bookings/cybertron">CYBERTRON</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">FRANK CZER</SubNavLink>
+                <SubNavLink href="/bookings/frankczer">FRANK CZER</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">GANDAALV</SubNavLink>
+                <SubNavLink href="/bookings/gandaalv">GANDAALV</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">INFECTED</SubNavLink>
+                <SubNavLink href="/bookings/infected">INFECTED</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">JANOSCH</SubNavLink>
+                <SubNavLink href="/bookings/janosch">JANOSCH</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">JOHANNA MEMMLER</SubNavLink>
+                <SubNavLink href="/bookings/johannamemmler">
+                  JOHANNA MEMMLER
+                </SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">KLEX GEIST</SubNavLink>
+                <SubNavLink href="/bookings/klexgeist">KLEX-GEIST</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">PSYLENCE</SubNavLink>
+                <SubNavLink href="/bookings/psylence">PSYLENCE</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/booking/">SON OF SCOBA</SubNavLink>
+                <SubNavLink href="/bookings/sonofscoba">
+                  SON OF SCOBA
+                </SubNavLink>
               </SubNavItem>
             </SubNavItemListAgency>
           </NavItem>
