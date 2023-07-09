@@ -83,7 +83,7 @@ export const BookingButton = styled(Link)`
   border-radius: 50px;
   margin: auto;
   margin-right: 15%;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   width: fit-content;
   height: 50px;
   display: flex;
