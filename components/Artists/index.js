@@ -307,67 +307,78 @@ export default function Artists() {
 
   const [artists, setArtists] = useState([
     {
-      name: "ANNAR",
+      name: "ANNÅR",
+      artistID: "annar",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/logo.jpg",
     },
     {
       name: "BJARNE",
+      artistID: "bjarne",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/bjarne.jpg",
     },
     {
       name: "CYBERTRON",
+      artistID: "cybertron",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/cybertron.jpg",
     },
     {
       name: "FRANK CZER",
+      artistID: "frankczer",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/frank.jpg",
     },
     {
       name: "GANDAALV",
+      artistID: "gandaalv",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/frank.jpg",
     },
     {
       name: "INFECTED",
+      artistID: "infected",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/bjarne.jpg",
     },
     {
       name: "JANOSCH",
+      artistID: "janosch",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/janosch.jpg",
     },
     {
       name: "JOHANNA MEMMLER",
+      artistID: "johannamemmler",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/logo.jpg",
     },
     {
       name: "KLEX-GEIST",
+      artistID: "klexgeist",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/klexgeist.jpg",
     },
     {
       name: "PSYLENCE",
+      artistID: "psylence",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/psylence.jpeg",
     },
     {
       name: "SON OF SCOBA",
+      artistID: "sonofscoba",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/logo.jpg",
@@ -405,7 +416,7 @@ export default function Artists() {
                 ArtistImageIsVisible={!artist.imageIsVisible}
               />
               <ArtistBio ArtistBioIsVisible={artist.bioIsVisible}>
-                <ArtistLink href={`/bookings/${artist.name.toLowerCase()}`}>
+                <ArtistLink href={`/bookings/${artist.artistID}`}>
                   Artist Bio {artist.name}
                 </ArtistLink>
               </ArtistBio>
