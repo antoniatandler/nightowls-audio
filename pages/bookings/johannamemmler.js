@@ -83,7 +83,7 @@ export default function Janosch() {
           </Link>
           Facebook
         </Links>
-        <BookingButton href="/">booking</BookingButton>
+        <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>
       <Footer />
     </>

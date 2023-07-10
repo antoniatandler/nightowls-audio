@@ -89,7 +89,7 @@ export default function Infected() {
           </Link>
           Facebook
         </Links>
-        <BookingButton href="/">booking</BookingButton>
+        <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>
       <Footer />
     </>

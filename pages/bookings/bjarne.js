@@ -89,7 +89,7 @@ export default function Bjarne() {
           </Link>
           Facebook
         </Links>
-        <BookingButton href="/">booking</BookingButton>
+        <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>
       <Footer />
     </>

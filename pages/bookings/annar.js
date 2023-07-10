@@ -184,7 +184,7 @@ export default function Annår() {
           </Link>
           Facebook
         </Links>
-        <BookingButton href="/">booking</BookingButton>
+        <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>
       <Footer />
     </>

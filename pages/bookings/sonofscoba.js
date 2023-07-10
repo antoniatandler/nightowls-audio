@@ -27,7 +27,7 @@ export default function SonOfScoba() {
           <Genre>- DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/logo.jpeg"
+          src="/../public/images/logo.jpg"
           width={250}
           height={250}
           alt="Son of Scoba"
@@ -83,7 +83,7 @@ export default function SonOfScoba() {
           </Link>
           Facebook
         </Links>
-        <BookingButton href="/">booking</BookingButton>
+        <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>
       <Footer />
     </>
