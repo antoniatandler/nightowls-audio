@@ -9,12 +9,13 @@ const FootBarContainer = styled.div`
   color: black;
   width: 100%;
   margin: auto;
+  height: 30px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 `;
 
-const FootBar = styled.ul`
-  display: flex;
-  justify-content: flex-end;
-`;
+const FootBar = styled.ul``;
 
 const FootBarItem = styled.li`
   list-style: none;
