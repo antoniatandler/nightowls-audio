@@ -98,34 +98,34 @@ export default function Rentail() {
           <ImageContainer>
             <EquipmentImage
               type="image/jpeg"
-              src="/lightshow/lightshow1.jpeg"
+              src="/lightshow/lightshow1.JPEG"
               width={300}
               height={200}
             />
             <EquipmentImage
               type="image/jpg"
-              src="/lightshow/lightshow2.jpg"
+              src="/lightshow/lightshow2.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
               type="image/jpeg"
-              src="/lightshow/lightshow3.jpg"
+              src="/lightshow/lightshow3.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/lightshow/lightshow4.jpg"
+              src="/lightshow/lightshow4.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/lightshow/lightshow5.jpg"
+              src="/lightshow/lightshow5.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/lightshow/lightshow6.jpg"
+              src="/lightshow/lightshow6.JPG"
               width={300}
               height={200}
             />
@@ -206,19 +206,19 @@ export default function Rentail() {
           <AnkerLink id="decoration" />
           <RentailHeading>DECORATION</RentailHeading>
           <ImageContainer>
-            <EquipmentImage src="/deco/deco5.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco6.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco7.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco8.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco10.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco12.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco13.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco14.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco15.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco16.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco17.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco18.jpg" width={300} height={200} />
-            <EquipmentImage src="/deco/deco20.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco5.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco6.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco7.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco8.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco10.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco12.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco13.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco14.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco15.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco16.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco17.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco18.JPG" width={300} height={200} />
+            <EquipmentImage src="/deco/deco20.JPG" width={300} height={200} />
             <EquipmentImage src="/deco/deco22.jpg" width={300} height={200} />
             <EquipmentImage src="/deco/deco23.jpg" width={300} height={200} />
             <EquipmentImage src="/deco/deco24.jpg" width={300} height={200} />
@@ -250,49 +250,49 @@ export default function Rentail() {
           <RentailHeading>EQUIPMENT</RentailHeading>
           <ImageContainer>
             <EquipmentImage
-              src="/equipment/komplettset.jpg"
+              src="/equipment/komplettset.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/equipment/komplettset2.jpg"
+              src="/equipment/komplettset2.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/equipment/komplettset3.jpg"
+              src="/equipment/komplettset3.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/equipment/komplettset4.jpg"
+              src="/equipment/komplettset4.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/equipment/komplettset5.jpg"
+              src="/equipment/komplettset5.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/equipment/komplettset6.jpg"
+              src="/equipment/komplettset6.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/equipment/komplettset7.jpg"
+              src="/equipment/komplettset7.JPG"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/equipment/komplettset8.jpg"
+              src="/equipment/komplettset8.JPG"
               width={300}
               height={200}
             />
 
             <ImageSection>
               <EquipmentImage
-                src="/equipment/pioneerv10.jpg"
+                src="/equipment/pioneerv10.JPG"
                 width={300}
                 height={200}
               />
@@ -300,7 +300,7 @@ export default function Rentail() {
             </ImageSection>
             <ImageSection>
               <EquipmentImage
-                src="/equipment/djma9.jpg"
+                src="/equipment/djma9.JPG"
                 width={300}
                 height={200}
               />
@@ -309,7 +309,7 @@ export default function Rentail() {
 
             <ImageSection>
               <EquipmentImage
-                src="/equipment/cdj3000.jpg"
+                src="/equipment/cdj3000.JPG"
                 width={300}
                 height={200}
               />
@@ -317,7 +317,7 @@ export default function Rentail() {
             </ImageSection>
             <ImageSection>
               <EquipmentImage
-                src="/equipment/3000erunda9.jpg"
+                src="/equipment/3000erunda9.JPG"
                 width={300}
                 height={200}
               />
