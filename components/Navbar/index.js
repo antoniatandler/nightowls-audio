@@ -113,7 +113,7 @@ const SubNavItemListRentailAndService = styled.ul`
     RentailAndServiceIsOpen ? "block" : "none"};
   z-index: 2;
   padding: 5px;
-  margin-top: 6px;
+  margin-top: 0px;
 `;
 
 export default function Navigation() {
