@@ -135,14 +135,6 @@ export default function Artists() {
       imageSrc: "/../public/images/janosch.jpg",
       genre: "Hardtechno & Prog. Trance DJ",
     },
-    // {
-    //   name: "JOHANNA MEMMLER",
-    //   artistID: "johannamemmler",
-    //   bioIsVisible: false,
-    //   imageIsVisible: true,
-    //   imageSrc: "/../public/images/logo.jpg",
-    //   genre: "Groovy Hardtechno DJ",
-    // },
     {
       name: "KLEX-GEIST",
       artistID: "klexgeist",
