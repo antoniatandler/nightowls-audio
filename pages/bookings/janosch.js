@@ -24,7 +24,7 @@ export default function Janosch() {
       <MainContainer>
         <HeadingSection>
           <Name>JANOSCH</Name>
-          <Genre>- Progressive Trance & Hard Techno DJ -</Genre>
+          <Genre>- Hardtechno & Progressive Trance DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
           src="/../public/images/janosch.jpg"
@@ -33,17 +33,22 @@ export default function Janosch() {
           alt="Janosch"
         />
         <Bio>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          possimus ipsum at, facilis omnis ut accusantium quo optio,
-          voluptatibus natus hic impedit labore numquam incidunt modi sed fuga
-          dicta inventore dolor ipsam doloribus pariatur obcaecati maxime
-          sapiente! Error, facilis consectetur. Quisquam, fuga illo beatae
-          ducimus magnam vel odit consequuntur distinctio repellendus nesciunt.
-          Ea, cum, incidunt explicabo numquam impedit voluptas ducimus deserunt
-          sed quaerat ipsum in similique officiis harum nulla ipsa. Voluptatibus
-          possimus itaque, totam aut saepe eos, doloribus obcaecati veritatis
-          explicabo ducimus vel qui magni adipisci pariatur minus quia optio sed
-          corrupti? Voluptates eius?
+          Schon als Kind erkannte Janosch seine Leidenschaft für die Musik. Mit
+          7 Jahren begann er Klarinettenunterricht an der Musikschule und später
+          wechselte er zur Posaune. Als Jugendlicher entdeckte er die
+          elektronische Musik und fand Gefallen am DJing.
+          <br />
+          <br />
+          Unter dem Pseudonym ADIP wurde er später in der Rostocker Goa-Szene
+          bekannt. Mit 20 hatte er erste Auftritte auf Goa-Partys und erkundete
+          neue Städte wie Darmstadt, Kassel, Münster und Berlin.
+          <br />
+          <br />
+          Während der Pandemie fokussierte er sich auf den Hard Techno. Als
+          Techno-DJ ist er heute sowohl in Rostock und gelegentlich
+          deutschlandweit unterwegs. Janosch's Musik verzaubert die Gäste und
+          erfreut die Herzen der Tanzenden mit donnernden und industriellen
+          klängen.
           {/* ------------- Text ------------
             <br />
             ------------- Text ------------
@@ -55,7 +60,11 @@ export default function Janosch() {
             ------------- Text ------------ */}
         </Bio>
         <Links>
-          <Link href="https://soundcloud.com" target="_blank">
+          <Link
+            href="soundcloud.com/janoschmusic
+"
+            target="_blank"
+          >
             <SocialsIcon
               src="/../public/icons/klangwolke.png"
               width={70}
@@ -64,7 +73,7 @@ export default function Janosch() {
             />
           </Link>
           Soundcloud
-          <Link href="https://www.instagram.com" target="_blank">
+          <Link href="https://www.instagram.com/janosch.music/" target="_blank">
             <SocialsIcon
               src="/../public/icons/instagram.png"
               width={70}
@@ -73,7 +82,7 @@ export default function Janosch() {
             />
           </Link>
           Instagram
-          <Link href="https://www.facebook.com">
+          {/*  <Link href="https://www.facebook.com">
             <SocialsIcon
               src="/../public/icons/facebook.png"
               width={70}
@@ -81,7 +90,7 @@ export default function Janosch() {
               alt="Facebook-Icon"
             />
           </Link>
-          Facebook
+          Facebook */}
         </Links>
         <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>

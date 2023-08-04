@@ -27,23 +27,27 @@ export default function Cybertron() {
           <Genre>- Hi-Tech DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/cybertron.jpg"
+          src="/../public/images/cybertron2.jpeg"
           width={250}
           height={250}
           alt="Cybertron"
         />
         <Bio>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          possimus ipsum at, facilis omnis ut accusantium quo optio,
-          voluptatibus natus hic impedit labore numquam incidunt modi sed fuga
-          dicta inventore dolor ipsam doloribus pariatur obcaecati maxime
-          sapiente! Error, facilis consectetur. Quisquam, fuga illo beatae
-          ducimus magnam vel odit consequuntur distinctio repellendus nesciunt.
-          Ea, cum, incidunt explicabo numquam impedit voluptas ducimus deserunt
-          sed quaerat ipsum in similique officiis harum nulla ipsa. Voluptatibus
-          possimus itaque, totam aut saepe eos, doloribus obcaecati veritatis
-          explicabo ducimus vel qui magni adipisci pariatur minus quia optio sed
-          corrupti? Voluptates eius?
+          Cybertron, mit bürgerlichem Namen Erik Prehn, begann seine Reise im
+          Jahr 2017, als er zum ersten Mal mit den treibenden Schellen-Beats in
+          Kontakt kam.
+          <br />
+          <br />
+          Seine Leidenschaft für die Hi-Tech-Musik entwickelte sich schnell, und
+          im Jahr 2020 startete er sein eigenes Projekt unter dem Namen
+          Cybertron.
+          <br />
+          Seit 2022 ist er Resident-DJ bei "Nightowls Audio" und hat sich in
+          kurzer Zeit einen Namen in der Szene gemacht.
+          <br />
+          <br />
+          Seine einzigartige Musik und sein Stil begeistern das Publikum immer
+          wieder aufs Neue.
           {/* ------------- Text ------------
             <br />
             ------------- Text ------------
@@ -56,7 +60,7 @@ export default function Cybertron() {
         </Bio>
         <Links>
           <Link
-            href="https://soundcloud.com/user-446797120-668569968?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            href="https://soundcloud.com/cybertron_official"
             target="_blank"
           >
             <SocialsIcon
@@ -79,7 +83,10 @@ export default function Cybertron() {
             />
           </Link>
           Instagram
-          <Link href="https://www.facebook.com">
+          <Link
+            href="https://www.facebook.com/profile.php?id=100063529300398"
+            target="_blank"
+          >
             <SocialsIcon
               src="/../public/icons/facebook.png"
               width={70}

@@ -27,23 +27,25 @@ export default function Bjarne() {
           <Genre>- Techno DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/bjarne.jpg"
+          src="/../public/images/bjarne2.jpg"
           width={250}
           height={250}
           alt="Bjarne"
         />
         <Bio>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          possimus ipsum at, facilis omnis ut accusantium quo optio,
-          voluptatibus natus hic impedit labore numquam incidunt modi sed fuga
-          dicta inventore dolor ipsam doloribus pariatur obcaecati maxime
-          sapiente! Error, facilis consectetur. Quisquam, fuga illo beatae
-          ducimus magnam vel odit consequuntur distinctio repellendus nesciunt.
-          Ea, cum, incidunt explicabo numquam impedit voluptas ducimus deserunt
-          sed quaerat ipsum in similique officiis harum nulla ipsa. Voluptatibus
-          possimus itaque, totam aut saepe eos, doloribus obcaecati veritatis
-          explicabo ducimus vel qui magni adipisci pariatur minus quia optio sed
-          corrupti? Voluptates eius?
+          Gestartet ist Infected mit dem Projekt 2014 in den Clubs seiner
+          Heimatstadt Rostock.
+          <br />
+          <br />
+          Mittlerweile ist er in weiten Teilen Deutschlands bekannt und bringt
+          immer wieder seine eigene Note in seine Progressive Trance-Sets ein.
+          <br />
+          <br />
+          In den vergangenen Jahren stieg sein Bekanntheitsgrad durch Auftritte
+          auf verschiedenen In- und Outdoor-Festivals in Deutschland, sowie
+          einem Gig im benachbarten Schweden. Während dieser Gigs war es ihm
+          möglich Szenegrößen wie Neelix, Fabio & Moon, Symphonix und viele
+          weitere zu supporten.
           {/* ------------- Text ------------
             <br />
             ------------- Text ------------
@@ -79,7 +81,10 @@ export default function Bjarne() {
             />
           </Link>
           Instagram
-          <Link href="https://www.facebook.com">
+          <Link
+            href="https://www.facebook.com/Infected.Rostock"
+            target="_blank"
+          >
             <SocialsIcon
               src="/../public/icons/facebook.png"
               width={70}

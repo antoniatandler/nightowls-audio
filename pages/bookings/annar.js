@@ -11,14 +11,14 @@ export const MainContainer = styled.div`
   margin-top: 170px;
   // border: 3px solid pink;
   display: flex;
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
   // justify-content: space-evenly;
   // align-items: center;
 `;
 
 export const SingleArtistImage = styled(Image)`
   position: absolute;
-  right: 30px;
+  right: 3%;
   height: 300px;
   width: 300px;
   // border: 3px solid green;
@@ -27,55 +27,66 @@ export const SingleArtistImage = styled(Image)`
 
 export const HeadingSection = styled.section`
   height: fit-content;
-  // border: 3px solid green;
-  position: absolute;
+  flex-direction: column;
+  display: flex;
   margin: auto;
-  margin-top: 20px;
-  margin-left: 5%;
+  margin-top: 0;
   width: 70%;
   text-align: center;
-  letter-spacing: 2px;
+  // margin-left: 5%;
+  justify-content: space-around;
 `;
 
 export const Name = styled.h2`
   font-size: 40px;
   color: white;
-  // posiiton: absolute;
   margin: auto;
-  // margin-top: 25px;
+  margin-top: 0;
+  // letter-spacing: 25px;
 `;
 
 export const Genre = styled.h3`
   font-size: 30px;
   color: white;
-  margin: auto;
+  // margin: auto;
+  margin-top: 5px;
+  letter-spacing: 2px;
 `;
 
 export const Bio = styled.text`
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
+  border: 10px double rgba(255, 255, 255, 0.5);
+  font-size: 25px;
   margin: auto;
+  height: max-content;
   width: 70%;
   height: fit-content;
   position: absolute;
-  margin-top: 130px;
-  margin-left: 5%;
-  padding: 20px;
+  margin-top: 110px;
+  margin-left: 3%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 `;
 
 export const Links = styled.section`
   // border: 1px solid white;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   height: fit-content;
-  width: 50%;
   margin-left: 15%;
   display: flex;
   flex-wrap: no-wrap;
   padding: auto;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  width: 70%;
+  margin-left: 5%;
+  bottom: 50px;
 `;
 
 export const BookingButton = styled(Link)`
@@ -83,7 +94,7 @@ export const BookingButton = styled(Link)`
   border-radius: 50px;
   margin: auto;
   margin-right: 15%;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   width: fit-content;
   height: 50px;
   display: flex;
@@ -125,26 +136,21 @@ export default function Annår() {
       <MainContainer>
         <HeadingSection>
           <Name>ANNÅR</Name>
-          <Genre>- Hardtechno DJ -</Genre>
+          <Genre>- Hardtechno & Schranz DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/logo.jpg"
+          src="/../public/images/annar2.jpg"
           width={250}
           height={250}
           alt="Annâr"
         />
         <Bio>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          possimus ipsum at, facilis omnis ut accusantium quo optio,
-          voluptatibus natus hic impedit labore numquam incidunt modi sed fuga
-          dicta inventore dolor ipsam doloribus pariatur obcaecati maxime
-          sapiente! Error, facilis consectetur. Quisquam, fuga illo beatae
-          ducimus magnam vel odit consequuntur distinctio repellendus nesciunt.
-          Ea, cum, incidunt explicabo numquam impedit voluptas ducimus deserunt
-          sed quaerat ipsum in similique officiis harum nulla ipsa. Voluptatibus
-          possimus itaque, totam aut saepe eos, doloribus obcaecati veritatis
-          explicabo ducimus vel qui magni adipisci pariatur minus quia optio sed
-          corrupti? Voluptates eius?
+          ANNÅRist eine in Mecklenburg-Vorpommern geborene Techno-Künstlerin mit
+          Sitz in Rostock, Norddeutschland. Ihre musikalischen Anfänge lagen im
+          Klavierspiel und anderen klassischen Instrumenten. In den letzten
+          Monaten hat sie das Publikum mit ihrem einzigartigen und fesselnden
+          Stil in Clubs und auf Festivals unterhalten und mit donnernden und
+          melodischen Klängen verzaubert.
           {/* ------------- Text ------------
           <br />
           ------------- Text ------------
@@ -174,7 +180,7 @@ export default function Annår() {
             />
           </Link>
           Instagram
-          <Link href="https://www.facebook.com">
+          {/* <Link href="https://www.facebook.com" target="_blank">
             <SocialsIcon
               src="/../public/icons/facebook.png"
               width={70}
@@ -182,7 +188,7 @@ export default function Annår() {
               alt="Facebook-Icon"
             />
           </Link>
-          Facebook
+          Facebook */}
         </Links>
         <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>

@@ -24,26 +24,30 @@ export default function Psylence() {
       <MainContainer>
         <HeadingSection>
           <Name>PSYLENCE</Name>
-          <Genre>- Psychedelic Trance DJ -</Genre>
+          <Genre>- Full On Psytrance DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/psylence.jpeg"
+          src="/../public/images/psylence2.jpeg"
           width={250}
           height={250}
           alt="Psylence"
         />
         <Bio>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          possimus ipsum at, facilis omnis ut accusantium quo optio,
-          voluptatibus natus hic impedit labore numquam incidunt modi sed fuga
-          dicta inventore dolor ipsam doloribus pariatur obcaecati maxime
-          sapiente! Error, facilis consectetur. Quisquam, fuga illo beatae
-          ducimus magnam vel odit consequuntur distinctio repellendus nesciunt.
-          Ea, cum, incidunt explicabo numquam impedit voluptas ducimus deserunt
-          sed quaerat ipsum in similique officiis harum nulla ipsa. Voluptatibus
-          possimus itaque, totam aut saepe eos, doloribus obcaecati veritatis
-          explicabo ducimus vel qui magni adipisci pariatur minus quia optio sed
-          corrupti? Voluptates eius?
+          Mit 14 Jahren begann er mit der Musik, allerdings mit House und
+          Electro.
+          <br />
+          <br />
+          Nach dem Besuch seines ersten Psytrance Festivals, war es keine Frage
+          mehr für ihn, sich in diesem Genre zu probieren. In der Zeit zwischen
+          2018 und 2022, konnte er zunehmend Erfahrungen sammeln und hatte im
+          Mai 2022 seinen ersten Gig.
+          <br />
+          <br />
+          Im Full On Psytrance hat er dann schließlich sein Favorit gefunden!
+          <br />
+          <br />
+          Mittlerweile ist er ein Teil der Nightowls Crew und hatte dort auch
+          schon den einen oder anderen Auftritt.
           {/* ------------- Text ------------
             <br />
             ------------- Text ------------
@@ -55,7 +59,7 @@ export default function Psylence() {
             ------------- Text ------------ */}
         </Bio>
         <Links>
-          <Link href="https://soundcloud.com" target="_blank">
+          <Link href="https://soundcloud.com/steven-baerwald" target="_blank">
             <SocialsIcon
               src="/../public/icons/klangwolke.png"
               width={70}
@@ -64,7 +68,10 @@ export default function Psylence() {
             />
           </Link>
           Soundcloud
-          <Link href="https://www.instagram.com" target="_blank">
+          <Link
+            href="https://www.instagram.com/psylence.music/"
+            target="_blank"
+          >
             <SocialsIcon
               src="/../public/icons/instagram.png"
               width={70}
@@ -73,7 +80,7 @@ export default function Psylence() {
             />
           </Link>
           Instagram
-          <Link href="https://www.facebook.com">
+          {/* <Link href="https://www.facebook.com">
             <SocialsIcon
               src="/../public/icons/facebook.png"
               width={70}
@@ -81,7 +88,7 @@ export default function Psylence() {
               alt="Facebook-Icon"
             />
           </Link>
-          Facebook
+          Facebook */}
         </Links>
         <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>

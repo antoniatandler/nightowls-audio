@@ -33,17 +33,7 @@ export default function KlexGeist() {
           alt="Klex-Geist"
         />
         <Bio>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          possimus ipsum at, facilis omnis ut accusantium quo optio,
-          voluptatibus natus hic impedit labore numquam incidunt modi sed fuga
-          dicta inventore dolor ipsam doloribus pariatur obcaecati maxime
-          sapiente! Error, facilis consectetur. Quisquam, fuga illo beatae
-          ducimus magnam vel odit consequuntur distinctio repellendus nesciunt.
-          Ea, cum, incidunt explicabo numquam impedit voluptas ducimus deserunt
-          sed quaerat ipsum in similique officiis harum nulla ipsa. Voluptatibus
-          possimus itaque, totam aut saepe eos, doloribus obcaecati veritatis
-          explicabo ducimus vel qui magni adipisci pariatur minus quia optio sed
-          corrupti? Voluptates eius?
+          Text folgt ...
           {/* ------------- Text ------------
             <br />
             ------------- Text ------------
@@ -55,7 +45,7 @@ export default function KlexGeist() {
             ------------- Text ------------ */}
         </Bio>
         <Links>
-          <Link href="https://soundcloud.com" target="_blank">
+          <Link href="https://soundcloud.com/klex-geist" target="_blank">
             <SocialsIcon
               src="/../public/icons/klangwolke.png"
               width={70}
@@ -64,7 +54,7 @@ export default function KlexGeist() {
             />
           </Link>
           Soundcloud
-          <Link href="https://www.instagram.com" target="_blank">
+          <Link href="https://www.instagram.com/klex_geist/" target="_blank">
             <SocialsIcon
               src="/../public/icons/instagram.png"
               width={70}
@@ -73,7 +63,7 @@ export default function KlexGeist() {
             />
           </Link>
           Instagram
-          <Link href="https://www.facebook.com">
+          {/* <Link href="https://www.facebook.com">
             <SocialsIcon
               src="/../public/icons/facebook.png"
               width={70}
@@ -81,7 +71,7 @@ export default function KlexGeist() {
               alt="Facebook-Icon"
             />
           </Link>
-          Facebook
+          Facebook */}
         </Links>
         <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>
