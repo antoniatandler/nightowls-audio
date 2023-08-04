@@ -27,7 +27,7 @@ export default function KlexGeist() {
           <Genre>- Melodic Hi-Tech Producer & DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/klexgeist.jpg"
+          src="/images/klexgeist.jpg"
           width={250}
           height={250}
           alt="Klex-Geist"
@@ -47,7 +47,7 @@ export default function KlexGeist() {
         <Links>
           <Link href="https://soundcloud.com/klex-geist" target="_blank">
             <SocialsIcon
-              src="/../public/icons/klangwolke.png"
+              src="/icons/klangwolke.png"
               width={70}
               height={70}
               alt="Soundcloud-Icon"
@@ -56,7 +56,7 @@ export default function KlexGeist() {
           Soundcloud
           <Link href="https://www.instagram.com/klex_geist/" target="_blank">
             <SocialsIcon
-              src="/../public/icons/instagram.png"
+              src="/icons/instagram.png"
               width={70}
               height={70}
               alt="Instagram-Icon"

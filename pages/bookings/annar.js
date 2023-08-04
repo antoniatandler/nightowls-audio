@@ -139,7 +139,7 @@ export default function Annår() {
           <Genre>- Hardtechno & Schranz DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/annar2.jpg"
+          src="/images/annar2.jpg"
           width={250}
           height={250}
           alt="Annâr"
@@ -164,7 +164,7 @@ export default function Annår() {
         <Links>
           <Link href="https://soundcloud.com/anna-ewald" target="_blank">
             <SocialsIcon
-              src="/../public/icons/klangwolke.png"
+              src="/icons/klangwolke.png"
               width={70}
               height={70}
               alt="Soundcloud-Icon"
@@ -173,7 +173,7 @@ export default function Annår() {
           Soundcloud
           <Link href="https://www.instagram.com/annaewld/" target="_blank">
             <SocialsIcon
-              src="/../public/icons/instagram.png"
+              src="icons/instagram.png"
               width={70}
               height={70}
               alt="Instagram-Icon"
@@ -182,7 +182,7 @@ export default function Annår() {
           Instagram
           {/* <Link href="https://www.facebook.com" target="_blank">
             <SocialsIcon
-              src="/../public/icons/facebook.png"
+              src="icons/facebook.png"
               width={70}
               height={70}
               alt="Facebook-Icon"

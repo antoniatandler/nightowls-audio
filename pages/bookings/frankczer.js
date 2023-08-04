@@ -27,7 +27,7 @@ export default function FrankCzer() {
           <Genre>- House & Peaktime DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/frank.jpg"
+          src="/images/frank.jpg"
           width={250}
           height={250}
           alt="Frank Czer"
@@ -50,7 +50,7 @@ export default function FrankCzer() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/klangwolke.png"
+              src="/icons/klangwolke.png"
               width={70}
               height={70}
               alt="Soundcloud-Icon"
@@ -62,7 +62,7 @@ export default function FrankCzer() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/instagram.png"
+              src="/icons/instagram.png"
               width={70}
               height={70}
               alt="Instagram-Icon"

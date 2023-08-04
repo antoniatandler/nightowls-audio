@@ -27,7 +27,7 @@ export default function Vanta() {
           <Genre>- Hardtechno DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/vanta.jpg"
+          src="/images/vanta.jpg"
           width={250}
           height={250}
           alt="Vanta"
@@ -59,7 +59,7 @@ export default function Vanta() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/klangwolke.png"
+              src="/icons/klangwolke.png"
               width={70}
               height={70}
               alt="Soundcloud-Icon"
@@ -68,7 +68,7 @@ export default function Vanta() {
           Soundcloud
           <Link href="https://www.instagram.com/vantavirtu/" target="_blank">
             <SocialsIcon
-              src="/../public/icons/instagram.png"
+              src="/icons/instagram.png"
               width={70}
               height={70}
               alt="Instagram-Icon"

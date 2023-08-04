@@ -27,7 +27,7 @@ export default function Cybertron() {
           <Genre>- Hi-Tech DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/cybertron2.jpeg"
+          src="/images/cybertron2.jpeg"
           width={250}
           height={250}
           alt="Cybertron"
@@ -64,7 +64,7 @@ export default function Cybertron() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/klangwolke.png"
+              src="/icons/klangwolke.png"
               width={70}
               height={70}
               alt="Soundcloud-Icon"
@@ -76,7 +76,7 @@ export default function Cybertron() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/instagram.png"
+              src="/icons/instagram.png"
               width={70}
               height={70}
               alt="Instagram-Icon"
@@ -88,7 +88,7 @@ export default function Cybertron() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/facebook.png"
+              src="/icons/facebook.png"
               width={70}
               height={70}
               alt="Facebook-Icon"

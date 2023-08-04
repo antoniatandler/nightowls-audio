@@ -27,7 +27,7 @@ export default function Janosch() {
           <Genre>- Hardtechno & Progressive Trance DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/janosch.jpg"
+          src="/images/janosch.jpg"
           width={250}
           height={250}
           alt="Janosch"
@@ -66,7 +66,7 @@ export default function Janosch() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/klangwolke.png"
+              src="/icons/klangwolke.png"
               width={70}
               height={70}
               alt="Soundcloud-Icon"
@@ -75,7 +75,7 @@ export default function Janosch() {
           Soundcloud
           <Link href="https://www.instagram.com/janosch.music/" target="_blank">
             <SocialsIcon
-              src="/../public/icons/instagram.png"
+              src="/icons/instagram.png"
               width={70}
               height={70}
               alt="Instagram-Icon"
@@ -84,7 +84,7 @@ export default function Janosch() {
           Instagram
           {/*  <Link href="https://www.facebook.com">
             <SocialsIcon
-              src="/../public/icons/facebook.png"
+              src="/icons/facebook.png"
               width={70}
               height={70}
               alt="Facebook-Icon"

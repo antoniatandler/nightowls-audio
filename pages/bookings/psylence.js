@@ -27,7 +27,7 @@ export default function Psylence() {
           <Genre>- Full On Psytrance DJ -</Genre>
         </HeadingSection>
         <SingleArtistImage
-          src="/../public/images/psylence2.jpeg"
+          src="/images/psylence2.jpeg"
           width={250}
           height={250}
           alt="Psylence"
@@ -61,7 +61,7 @@ export default function Psylence() {
         <Links>
           <Link href="https://soundcloud.com/steven-baerwald" target="_blank">
             <SocialsIcon
-              src="/../public/icons/klangwolke.png"
+              src="/icons/klangwolke.png"
               width={70}
               height={70}
               alt="Soundcloud-Icon"
@@ -73,7 +73,7 @@ export default function Psylence() {
             target="_blank"
           >
             <SocialsIcon
-              src="/../public/icons/instagram.png"
+              src="/icons/instagram.png"
               width={70}
               height={70}
               alt="Instagram-Icon"
@@ -82,7 +82,7 @@ export default function Psylence() {
           Instagram
           {/* <Link href="https://www.facebook.com">
             <SocialsIcon
-              src="/../public/icons/facebook.png"
+              src="/icons/facebook.png"
               width={70}
               height={70}
               alt="Facebook-Icon"
