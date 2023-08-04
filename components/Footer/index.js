@@ -37,7 +37,7 @@ export default function Footer() {
       <FootBarContainer>
         <FootBar>
           <FootBarItem>
-            <FootBarLink href="/">Impressum</FootBarLink>
+            <FootBarLink href="/impressum">Impressum</FootBarLink>
           </FootBarItem>
         </FootBar>
       </FootBarContainer>

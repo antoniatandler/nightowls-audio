@@ -76,6 +76,21 @@ const SubNavItem = styled.li`
   }
 `;
 
+const SubNavItemInProg = styled.button`
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 3px;
+  color: darkgrey;
+  option: disabled;
+  border: none;
+  width: 100%;
+  font-family: Blippo;
+`;
+
 const SubNavLink = styled(Link)`
   text-decoration: none;
   color: white;
@@ -85,6 +100,12 @@ const SubNavLink = styled(Link)`
   &:focus {
     color: rgb(139, 0, 0);
   }
+`;
+
+const SubNavLinkInProg = styled.li`
+  text-decoration: none;
+  color: white;
+  padding: 5px;
 `;
 
 const SubNavItemListRentailAndService = styled.ul`
@@ -153,20 +174,13 @@ export default function Navigation() {
                 <SubNavLink href="/bookings/janosch">JANOSCH</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/bookings/johannamemmler">
-                  JOHANNA MEMMLER
-                </SubNavLink>
-              </SubNavItem>
-              <SubNavItem>
                 <SubNavLink href="/bookings/klexgeist">KLEX-GEIST</SubNavLink>
               </SubNavItem>
               <SubNavItem>
                 <SubNavLink href="/bookings/psylence">PSYLENCE</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/bookings/sonofscoba">
-                  SON OF SCOBA
-                </SubNavLink>
+                <SubNavLink href="/bookings/vanta">VANTA</SubNavLink>
               </SubNavItem>
             </SubNavItemListAgency>
           </NavItem>
@@ -203,17 +217,20 @@ export default function Navigation() {
               onMouseLeave={toggleRentailAndServiceMenu}
             >
               <SubNavItem>
-                <SubNavLink href="/rentail/">LIGHT SHOW</SubNavLink>
+                <SubNavLink href="/rentail/#equipment">EQUIPMENT</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/rentail/">DECORATION</SubNavLink>
+                <SubNavLink href="/rentail/#lightshow">LIGHT SHOW</SubNavLink>
               </SubNavItem>
               <SubNavItem>
-                <SubNavLink href="/rentail/">EQUIPMENT</SubNavLink>
+                <SubNavLink href="/rentail/#decoration">DECORATION</SubNavLink>
               </SubNavItem>
-              <SubNavItem>
-                <SubNavLink href="/rentail/">EVENTSERVICE</SubNavLink>
-              </SubNavItem>
+              <hr />
+              <SubNavItemInProg>
+                <SubNavLinkInProg href="/rentail/">
+                  EVENTSERVICE (soon)
+                </SubNavLinkInProg>
+              </SubNavItemInProg>
             </SubNavItemListRentailAndService>
           </NavItem>
           <NavItem>

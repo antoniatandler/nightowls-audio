@@ -78,240 +78,14 @@ const ArtistLink = styled(Link)`
 `;
 
 export default function Artists() {
-  //////////////////////////
-  //   const [ArtistBioIsVisible, setArtistBioIsVisible] = useState(false);
-  //   const [ArtistImageIsVisible, setArtistImageIsVisible] = useState(true);
-
-  //   const toggleArtistBio = () => {
-  //     setArtistBioIsVisible(!ArtistBioIsVisible);
-  //     setArtistImageIsVisible(!ArtistImageIsVisible);
-  //   };
-
-  //   return (
-  //     <>
-  //       <ArtistContainer>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>ANNÅR</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/logo.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               <ArtistLink href="/bookings/annar">Artist Bio Annâr</ArtistLink>
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>BJARNE</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/bjarne.jpg"}
-  //               width={250}
-  //               height={250}
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               <ArtistLink href="/bookings/bjarne">Artist Bio Bjarne</ArtistLink>
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- TECHNO DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>CYBERTRON</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/cybertron.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Cybertron
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>FRANK CZER</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/frank.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Frank Czer
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>GANDAALV</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/frank.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Gandaalv
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>INFECTED</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/bjarne.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Infected
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>JANOSCH</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/janosch.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Janosch
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>JOHANNA MEMMLER</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/logo.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Johanna Memmler
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>KLEX GEIST</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/klexgeist.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Klex Geist
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>PSYLENCE</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/psylence.jpeg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Psylence
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //         <ArtistPreview
-  //           onMouseEnter={toggleArtistBio}
-  //           onMouseLeave={toggleArtistBio}
-  //         >
-  //           <ArtistName>SON OF SCOBA</ArtistName>
-  //           <div>
-  //             <ArtistImage
-  //               src={"/../public/images/logo.jpg"}
-  //               width={250}
-  //               height={250}
-  //               size="contain"
-  //               ArtistImageIsVisible={!ArtistImageIsVisible}
-  //             />
-  //             <ArtistBio ArtistBioIsVisible={ArtistBioIsVisible}>
-  //               Artist Bio Son of Scoba
-  //             </ArtistBio>
-  //           </div>
-  //           <ArtistBioHeading>- DJ -</ArtistBioHeading>
-  //         </ArtistPreview>
-  //       </ArtistContainer>
-  //     </>
-  //   );
-  // }
-
   const [artists, setArtists] = useState([
     {
       name: "ANNÅR",
       artistID: "annar",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/logo.jpg",
+      imageSrc: "/../public/images/annar.jpg",
+      genre: "Hardtechno & Schranz DJ",
     },
     {
       name: "BJARNE",
@@ -319,13 +93,15 @@ export default function Artists() {
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/bjarne.jpg",
+      genre: "Techno DJ",
     },
     {
       name: "CYBERTRON",
       artistID: "cybertron",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/cybertron.jpg",
+      imageSrc: "/../public/images/cybertron3.jpeg",
+      genre: "Hi-Tech DJ",
     },
     {
       name: "FRANK CZER",
@@ -333,6 +109,7 @@ export default function Artists() {
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/frank.jpg",
+      genre: "House & Peaktime DJ",
     },
     {
       name: "GANDAALV",
@@ -340,6 +117,7 @@ export default function Artists() {
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/frank.jpg",
+      genre: "Psytrance DJ",
     },
     {
       name: "INFECTED",
@@ -347,6 +125,7 @@ export default function Artists() {
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/bjarne.jpg",
+      genre: "Progressive Trance DJ",
     },
     {
       name: "JANOSCH",
@@ -354,20 +133,23 @@ export default function Artists() {
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/janosch.jpg",
+      genre: "Hardtechno & Prog. Trance DJ",
     },
-    {
-      name: "JOHANNA MEMMLER",
-      artistID: "johannamemmler",
-      bioIsVisible: false,
-      imageIsVisible: true,
-      imageSrc: "/../public/images/logo.jpg",
-    },
+    // {
+    //   name: "JOHANNA MEMMLER",
+    //   artistID: "johannamemmler",
+    //   bioIsVisible: false,
+    //   imageIsVisible: true,
+    //   imageSrc: "/../public/images/logo.jpg",
+    //   genre: "Groovy Hardtechno DJ",
+    // },
     {
       name: "KLEX-GEIST",
       artistID: "klexgeist",
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/klexgeist.jpg",
+      genre: "Hi-Tech DJ",
     },
     {
       name: "PSYLENCE",
@@ -375,13 +157,15 @@ export default function Artists() {
       bioIsVisible: false,
       imageIsVisible: true,
       imageSrc: "/../public/images/psylence.jpeg",
+      genre: "Full On Psytrance DJ",
     },
     {
-      name: "SON OF SCOBA",
-      artistID: "sonofscoba",
+      name: "VANTA",
+      artistID: "vanta",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/logo.jpg",
+      imageSrc: "/../public/images/vanta.jpg",
+      genre: "Hardtechno DJ",
     },
   ]);
 
@@ -421,7 +205,7 @@ export default function Artists() {
                 </ArtistLink>
               </ArtistBio>
             </div>
-            <ArtistBioHeading>- DJ -</ArtistBioHeading>
+            <ArtistBioHeading>- {artist.genre} -</ArtistBioHeading>
           </ArtistPreview>
         ))}
       </ArtistContainer>

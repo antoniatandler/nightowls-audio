@@ -16,7 +16,7 @@ const LogoImage = styled(Image)`
 export default function HomePage() {
   return (
     <>
-      <Heading />
+      {/* <Heading /> */}
       <Navigation />
       <LogoImage src="/../public/images/logo.jpg" width={600} height={500} />
       <Footer />

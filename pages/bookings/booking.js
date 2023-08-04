@@ -17,6 +17,7 @@ const BookingForm = styled.form`
   top: 17%;
   padding-bottom: 150px;
 `;
+
 const SendButton = styled.button`
   font-family: Blippo;
   width: 30%;
@@ -127,11 +128,11 @@ export default function Bookings() {
     <>
       <Heading />
       <Navigation />
-      <BookingForm>
+      <BookingForm action="mailto: antoniatandler@gmail.com" method="POST">
         <FormHeading>BOOKING REQUEST</FormHeading>
         <FormLabel for="ArtistSelect">
           Artist:
-          <ArtistSelect required name="AristSelect">
+          <ArtistSelect required name="ArtistSelect">
             <ArtistOption disabled selected>
               select your artist ...
             </ArtistOption>
@@ -148,6 +149,7 @@ export default function Bookings() {
             <ArtistOption value={"Klex-Geist"}>Klex-Geist</ArtistOption>
             <ArtistOption value={"Psylence"}>Psylence</ArtistOption>
             <ArtistOption value={"Son of Scoba"}>Son of Scoba</ArtistOption>
+            <ArtistOption value={"Vanta"}>Vanta</ArtistOption>
           </ArtistSelect>
         </FormLabel>
         <FormLabel for="location">
