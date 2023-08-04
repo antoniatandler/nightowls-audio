@@ -79,6 +79,7 @@ const DecoMovie = styled.video`
 
 const LightMovie = styled.video`
   width: fit-content;
+  margin-top: 20px;
 `;
 
 const AnkerLink = styled.p`
@@ -96,32 +97,32 @@ export default function Rentail() {
           <RentailHeading>LIGHTSHOW</RentailHeading>
           <ImageContainer>
             <EquipmentImage
-              src="/../public/lightshow/lightshow1.jpg"
+              src="/lightshow/lightshow1.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/lightshow/lightshow2.jpg"
+              src="/lightshow/lightshow2.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/lightshow/lightshow3.jpg"
+              src="/lightshow/lightshow3.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/lightshow/lightshow4.jpg"
+              src="/lightshow/lightshow4.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/lightshow/lightshow5.jpg"
+              src="/lightshow/lightshow5.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/lightshow/lightshow6.jpg"
+              src="/lightshow/lightshow6.jpg"
               width={300}
               height={200}
             />
@@ -202,121 +203,29 @@ export default function Rentail() {
           <AnkerLink id="decoration" />
           <RentailHeading>DECORATION</RentailHeading>
           <ImageContainer>
-            <EquipmentImage
-              src="/../public/deco/deco5.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco6.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco7.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco8.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco10.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco12.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco13.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco14.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco15.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco16.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco17.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco18.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco20.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco22.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco23.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco24.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco25.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco26.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco27.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco28.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco30.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco1.jpg"
-              width={300}
-              height={200}
-            />
-            <EquipmentImage
-              src="/../public/deco/deco2.jpg"
-              width={300}
-              height={200}
-            />
+            <EquipmentImage src="/deco/deco5.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco6.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco7.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco8.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco10.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco12.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco13.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco14.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco15.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco16.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco17.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco18.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco20.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco22.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco23.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco24.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco25.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco26.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco27.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco28.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco30.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco1.jpg" width={300} height={200} />
+            <EquipmentImage src="/deco/deco2.jpg" width={300} height={200} />
             <DecoMovie
               controls
               type="video/mp4"
@@ -338,49 +247,49 @@ export default function Rentail() {
           <RentailHeading>EQUIPMENT</RentailHeading>
           <ImageContainer>
             <EquipmentImage
-              src="/../public/equipment/komplettset.jpg"
+              src="/equipment/komplettset.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/equipment/komplettset2.jpg"
+              src="/equipment/komplettset2.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/equipment/komplettset3.jpg"
+              src="/equipment/komplettset3.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/equipment/komplettset4.jpg"
+              src="/equipment/komplettset4.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/equipment/komplettset5.jpg"
+              src="/equipment/komplettset5.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/equipment/komplettset6.jpg"
+              src="/equipment/komplettset6.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/equipment/komplettset7.jpg"
+              src="/equipment/komplettset7.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              src="/../public/equipment/komplettset8.jpg"
+              src="/equipment/komplettset8.jpg"
               width={300}
               height={200}
             />
 
             <ImageSection>
               <EquipmentImage
-                src="/../public/equipment/pioneerv10.jpg"
+                src="/equipment/pioneerv10.jpg"
                 width={300}
                 height={200}
               />
@@ -388,7 +297,7 @@ export default function Rentail() {
             </ImageSection>
             <ImageSection>
               <EquipmentImage
-                src="/../public/equipment/djma9.jpg"
+                src="/equipment/djma9.jpg"
                 width={300}
                 height={200}
               />
@@ -397,7 +306,7 @@ export default function Rentail() {
 
             <ImageSection>
               <EquipmentImage
-                src="/../public/equipment/cdj3000.jpg"
+                src="/equipment/cdj3000.jpg"
                 width={300}
                 height={200}
               />
@@ -405,7 +314,7 @@ export default function Rentail() {
             </ImageSection>
             <ImageSection>
               <EquipmentImage
-                src="/../public/equipment/3000erunda9.jpg"
+                src="/equipment/3000erunda9.jpg"
                 width={300}
                 height={200}
               />
