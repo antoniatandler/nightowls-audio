@@ -128,7 +128,7 @@ export default function Bookings() {
     <>
       <Heading />
       <Navigation />
-      <BookingForm action="mailto: antoniatandler@gmail.com" method="POST">
+      <BookingForm action="sent.php" method="POST">
         <FormHeading>BOOKING REQUEST</FormHeading>
         <FormLabel for="ArtistSelect">
           Artist:
