@@ -46,7 +46,7 @@ export default function Janosch() {
           <br />
           Während der Pandemie fokussierte er sich auf den Hard Techno. Als
           Techno-DJ ist er heute sowohl in Rostock und gelegentlich
-          deutschlandweit unterwegs. Janosch's Musik verzaubert die Gäste und
+          deutschlandweit unterwegs. Janoschs Musik verzaubert die Gäste und
           erfreut die Herzen der Tanzenden mit donnernden und industriellen
           klängen.
           {/* ------------- Text ------------
