@@ -49,14 +49,14 @@ const SubNavItemListAgency = styled.ul`
   display: ${({ AgencyIsOpen }) => (AgencyIsOpen ? "block" : "none")};
   z-index: +2;
   padding: 5px;
-  margin-top: 6px;
+  margin-top: 0px;
 `;
 
 const SubNavItemListEvents = styled.ul`
   display: ${({ EventsIsOpen }) => (EventsIsOpen ? "block" : "none")};
   z-index: +2;
   padding: 5px;
-  margin-top: 6px;
+  margin-top: 0px;
 `;
 
 const SubNavItem = styled.li`
