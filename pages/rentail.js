@@ -97,13 +97,13 @@ export default function Rentail() {
           <RentailHeading>LIGHTSHOW</RentailHeading>
           <ImageContainer>
             <EquipmentImage
-              type="image/jpeg"
+              type="image/jpg"
               src="/lightshow/lightshow1.jpg"
               width={300}
               height={200}
             />
             <EquipmentImage
-              type="image/jpeg"
+              type="image/jpg"
               src="/lightshow/lightshow2.jpg"
               width={300}
               height={200}
