@@ -18,7 +18,7 @@ export default function HomePage() {
     <>
       {/* <Heading /> */}
       <Navigation />
-      <LogoImage src="/../public/images/logo.jpg" width={600} height={500} />
+      <LogoImage src="/images/logo.jpg" width={600} height={500} />
       <Footer />
     </>
   );
