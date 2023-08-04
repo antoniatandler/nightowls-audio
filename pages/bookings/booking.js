@@ -129,8 +129,7 @@ export default function Bookings() {
       <Heading />
       <Navigation />
       <BookingForm
-        action="mailto: antoniatandler@gmail.com? & subject=Booking Request {ArtistSelect.value}
-       "
+        action="mailto: antoniatandler@gmail.com?subject=Neue%20Buchungsanfrage"
         method="POST"
       >
         <FormHeading>BOOKING REQUEST</FormHeading>
