@@ -84,7 +84,7 @@ export default function Artists() {
       artistID: "annar",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/annar.jpg",
+      imageSrc: "/images/annar.jpg",
       genre: "Hardtechno & Schranz DJ",
     },
     {
@@ -92,7 +92,7 @@ export default function Artists() {
       artistID: "bjarne",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/bjarne.jpg",
+      imageSrc: "/images/bjarne.jpg",
       genre: "Techno DJ",
     },
     {
@@ -100,7 +100,7 @@ export default function Artists() {
       artistID: "cybertron",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/cybertron3.jpeg",
+      imageSrc: "/images/cybertron3.jpeg",
       genre: "Hi-Tech DJ",
     },
     {
@@ -108,7 +108,7 @@ export default function Artists() {
       artistID: "frankczer",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/frank.jpg",
+      imageSrc: "/images/frank.jpg",
       genre: "House & Peaktime DJ",
     },
     {
@@ -116,7 +116,7 @@ export default function Artists() {
       artistID: "gandaalv",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/frank.jpg",
+      imageSrc: "/images/frank.jpg",
       genre: "Psytrance DJ",
     },
     {
@@ -124,7 +124,7 @@ export default function Artists() {
       artistID: "infected",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/bjarne.jpg",
+      imageSrc: "/images/bjarne.jpg",
       genre: "Progressive Trance DJ",
     },
     {
@@ -132,7 +132,7 @@ export default function Artists() {
       artistID: "janosch",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/janosch.jpg",
+      imageSrc: "/images/janosch.jpg",
       genre: "Hardtechno & Prog. Trance DJ",
     },
     {
@@ -140,7 +140,7 @@ export default function Artists() {
       artistID: "klexgeist",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/klexgeist.jpg",
+      imageSrc: "/images/klexgeist.jpg",
       genre: "Hi-Tech DJ",
     },
     {
@@ -148,7 +148,7 @@ export default function Artists() {
       artistID: "psylence",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/psylence.jpeg",
+      imageSrc: "/images/psylence.jpeg",
       genre: "Full On Psytrance DJ",
     },
     {
@@ -156,7 +156,7 @@ export default function Artists() {
       artistID: "vanta",
       bioIsVisible: false,
       imageIsVisible: true,
-      imageSrc: "/../public/images/vanta.jpg",
+      imageSrc: "/images/vanta.jpg",
       genre: "Hardtechno DJ",
     },
   ]);

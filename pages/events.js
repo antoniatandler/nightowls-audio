@@ -76,7 +76,7 @@ export default function Events() {
             target="_blank"
           >
             <StrictlyTechnoFlyer
-              src="/../public/events/bunker-august.jpg"
+              src="/events/bunker-august.jpg"
               height={450}
               width={450}
               alt="strictly techno flyer"
@@ -91,7 +91,7 @@ export default function Events() {
             target="_blank"
           >
             <NightowlsGoaFlyer
-              src="/../public/events/zwischenbau-juli/insta-story1.jpg"
+              src="/events/zwischenbau-juli/insta-story1.jpg"
               height={450}
               width={450}
               alt="nachteulen goa flyer"
