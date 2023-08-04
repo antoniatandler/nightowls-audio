@@ -42,7 +42,7 @@ export default function Cybertron() {
           im Jahr 2020 startete er sein eigenes Projekt unter dem Namen
           Cybertron.
           <br />
-          Seit 2022 ist er Resident-DJ bei "Nightowls Audio" und hat sich in
+          Seit 2022 ist er Resident-DJ bei Nightowls Audio und hat sich in
           kurzer Zeit einen Namen in der Szene gemacht.
           <br />
           <br />
