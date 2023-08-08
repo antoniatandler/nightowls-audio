@@ -5,6 +5,7 @@ import { NavItem, NavLink } from "../Navbar";
 const HeadingContainer = styled.header`
   @media (max-width: 500px) {
     display: flexbox;
+    background-color: rgba(255, 255, 255, 0.5);
   }
   position: fixed;
   display: none;
@@ -36,7 +37,7 @@ const HamburgerModel = styled.button`
 
 const Line = styled.div`
   width: 98%;
-  height: 2px;
+  height: 3px;
   background-color: rgb(43, 24, 15);
   margin: 2px;
 `;

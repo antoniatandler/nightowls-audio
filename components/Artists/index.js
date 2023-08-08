@@ -27,6 +27,10 @@ const ArtistPreview = styled.article`
   padding: 10px;
   height: max-content;
   width: 22%;
+  @media (max-width: 500px) {
+    justify-content: center;
+    width: 100%;
+  }
 `;
 
 const ArtistImage = styled(Image)`

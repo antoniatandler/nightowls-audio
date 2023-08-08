@@ -13,6 +13,15 @@ const MainHeading = styled.h1`
   font-size: 80px;
   letter-spacing: 3px;
   z-index: +4;
+
+  @media (max-width: 500px) {
+    margin-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    font-size: 30px;
+    align-content: centered;
+    justify-content: flex-end;
+  }
 `;
 
 export default function Heading() {
