@@ -3,6 +3,7 @@ import Link from "next/link";
 import Heading from "@/components/Heading";
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { useState } from "react";
 
 const BookingForm = styled.form`
   display: flex;
@@ -124,18 +125,59 @@ const BackButton = styled(Link)`
 `;
 
 export default function Bookings() {
+  const [selectedArtist, setSelectedArtist] = useState("");
+
+  const handleArtistChange = (event) => {
+    setSelectedArtist(event.target.value);
+  };
+
+  const handleSubmit = () => {
+    // Gather form data
+    const artist = selectedArtist;
+    const email = "antoniatandler@gmail.com";
+    const location = document.querySelector('input[name="location"]').value;
+    const event = document.querySelector('input[name="event"]').value;
+    const date = document.querySelector('input[name="date"]').value;
+    const fullName = document.querySelector('input[name="fullName"]').value;
+    const company = document.querySelector('input[name="company"]').value;
+
+    const phone = document.querySelector('input[name="phone"]').value;
+    const message = document.querySelector('textarea[name="message"]').value;
+    const subject = encodeURIComponent(`Neue Buchungsanfrage für ${artist}`);
+    const senderEmail = document.querySelector('input[name="email"]').value;
+    const body = encodeURIComponent(`
+    Artist: ${artist}
+    Location: ${location}
+    Event: ${event}
+    Date: ${date}
+
+    CONTACT:
+    Full Name: ${fullName}
+    Company: ${company}
+    Email: ${senderEmail}
+    Phone: ${phone}
+
+    Message:
+    ${message}
+  `);
+
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}&from=${senderEmail}`;
+  };
+
   return (
     <>
       <Heading />
       <Navigation />
-      <BookingForm
-        action="mailto: antoniatandler@gmail.com?subject=Neue%20Buchungsanfrage"
-        method="POST"
-      >
+      <BookingForm method="POST">
         <FormHeading>BOOKING REQUEST</FormHeading>
-        <FormLabel for="ArtistSelect">
+        <FormLabel htmlFor="ArtistSelect">
           Artist:
-          <ArtistSelect required name="ArtistSelect">
+          <ArtistSelect
+            required
+            name="ArtistSelect"
+            id="ArtistSelect"
+            onChange={handleArtistChange}
+          >
             <ArtistOption disabled selected>
               select your artist ...
             </ArtistOption>
@@ -213,7 +255,9 @@ export default function Bookings() {
             placeholder="your message"
           />
         </FormLabel>
-        <SendButton type="submit">Send</SendButton>
+        <SendButton type="submit" onClick={handleSubmit} target="_blank">
+          Send
+        </SendButton>
         <BackButton href="/bookings/bookings">back to all artists</BackButton>
       </BookingForm>
       <Footer />
