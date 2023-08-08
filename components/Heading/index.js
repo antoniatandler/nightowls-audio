@@ -21,6 +21,7 @@ const MainHeading = styled.h1`
     font-size: 30px;
     align-content: centered;
     justify-content: flex-end;
+    width: 80%;
   }
 `;
 
