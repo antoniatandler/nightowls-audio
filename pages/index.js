@@ -11,6 +11,12 @@ const LogoImage = styled(Image)`
   transform: translate(-50%, -50%);
   size: cover;
   z-index: -2;
+  width: auto;
+  height: auto;
+  @media (max-width: 500px) {
+    height: 275px;
+    width: fit-content;
+  }
 `;
 
 export default function HomePage() {
