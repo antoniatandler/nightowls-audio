@@ -49,6 +49,7 @@ const EquipmentImage = styled(Image)`
   width: max-content;
   height: fit-content;
   margin: 15px;
+  justify-content: center;
 `;
 
 const SubParagraph = styled.p`
