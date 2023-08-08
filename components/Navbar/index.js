@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Link from "next/link";
 import { useState } from "react";
+import BurgerMenu from "../BurgerMenu";
 
 const NavContainer = styled.div`
   background-color: rgb(255, 255, 255, 0.5);
@@ -10,9 +11,15 @@ const NavContainer = styled.div`
   padding: 3px;
   text-align: center;
   z-index: +4;
+  @media (max-width: 500px) {
+    background-color: transparent;
+  }
 `;
 
 const NavBar = styled.ul`
+  @media (max-width: 500px) {
+    display: none;
+  }
   color: black;
   display: flex;
   flex-direction: row;
@@ -30,7 +37,7 @@ const NavItem = styled.li`
   width: 20%;
 `;
 
-const NavLink = styled(Link)`
+export const NavLink = styled(Link)`
   text-decoration: none;
   color: black;
   padding-left: 5px;
@@ -136,6 +143,7 @@ export default function Navigation() {
   return (
     <>
       <NavContainer>
+        <BurgerMenu />
         <NavBar>
           <NavItem>
             <NavLink href="/">HOME</NavLink>
