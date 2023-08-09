@@ -15,13 +15,13 @@ const MainHeading = styled.h1`
   z-index: +4;
 
   @media (max-width: 500px) {
-    margin-top: 10px;
+    padding-top: 10px;
     padding-right: 10px;
     display: flex;
     font-size: 30px;
-    align-content: centered;
     justify-content: flex-end;
-    width: 80%;
+    width: 100%;
+    padding-bottom: 10px;
   }
 `;
 

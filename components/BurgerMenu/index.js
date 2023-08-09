@@ -1,6 +1,13 @@
 import styled from "styled-components";
 import { useState } from "react";
-import { NavItem, NavLink } from "../Navbar";
+import {
+  NavItem,
+  NavLink,
+  SubNavItemListRentailAndService,
+  SubNavItem,
+  SubNavLink,
+  SubNavItemListAgency,
+} from "../Navbar";
 
 const HeadingContainer = styled.header`
   @media (max-width: 500px) {
@@ -52,14 +59,26 @@ const DropdownMenu = styled.ul`
 
 const MenuItem = styled.li`
   list-style: none;
-  background-color: green;
+  text-align: left;
+  background-color: black;
+  font-size: 25px;
 `;
 
 export default function BurgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
+  const [RentailAndServiceIsOpen, setRentailAndServiceIsOpen] = useState(false);
+  const [AgencyIsOpen, setAgencyIsOpen] = useState(false);
+
+  const toggleAgencyMenu = () => {
+    setAgencyIsOpen(!AgencyIsOpen);
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleRentailAndServiceMenu = () => {
+    setRentailAndServiceIsOpen(!RentailAndServiceIsOpen);
   };
 
   return (
@@ -75,21 +94,62 @@ export default function BurgerMenu() {
         <MenuItem>
           <NavLink href="/">HOME</NavLink>
         </MenuItem>
-        <MenuItem>
+        <MenuItem onMouseEnter={toggleAgencyMenu}>
           <NavLink href="/bookings/bookings">NIGHTOWLS AGENCY</NavLink>
         </MenuItem>
-        {/* <FeatureButton variant="secondary" href="/">
-            <BiHomeHeart size={16} />
-          </FeatureButton> */}
+        <SubNavItemListAgency AgencyIsOpen={AgencyIsOpen}>
+          <SubNavItem>
+            <SubNavLink href="/bookings/annar">ANNÅR</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/bjarne">BJARNE</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/cybertron">CYBERTRON</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/frankczer">FRANK CZER</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/gandaalv">GANDAALV</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/infected">INFECTED</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/janosch">JANOSCH</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/klexgeist">KLEX-GEIST</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/psylence">PSYLENCE</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/bookings/vanta">VANTA</SubNavLink>
+          </SubNavItem>
+        </SubNavItemListAgency>
         <MenuItem>
-          {/* <FeatureButton variant="secondary" href="/poses">
-            <TbYoga size={16} />
-          </FeatureButton> */}
+          <NavLink href="/events">EVENTS</NavLink>
         </MenuItem>
+        <MenuItem onMouseEnter={toggleRentailAndServiceMenu}>
+          <NavLink href="/rentail">RENTAIL</NavLink>
+        </MenuItem>
+        <SubNavItemListRentailAndService
+          RentailAndServiceIsOpen={RentailAndServiceIsOpen}
+        >
+          <SubNavItem>
+            <SubNavLink href="/rentail/#equipment">EQUIPMENT</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/rentail/#lightshow">LIGHT SHOW</SubNavLink>
+          </SubNavItem>
+          <SubNavItem>
+            <SubNavLink href="/rentail/#decoration">DECORATION</SubNavLink>
+          </SubNavItem>
+        </SubNavItemListRentailAndService>
         <MenuItem>
-          {/* <FeatureButton variant="secondary" href="/poses/bookmarks" size={16}>
-            ♥️
-          </FeatureButton> */}
+          <NavLink href="/contact">CONTACT</NavLink>
         </MenuItem>
       </DropdownMenu>
     </>

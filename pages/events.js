@@ -15,6 +15,13 @@ const EventContainer = styled.div`
   width: 100%;
   height: 500px;
   text-align: center;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 50px;
+  }
 `;
 
 const StrictlyTechnoSection = styled.section`
@@ -23,6 +30,13 @@ const StrictlyTechnoSection = styled.section`
   // border: 3px solid green;
   flex-direction: column;
   margin-top: 40px;
+  @media (max-width: 500px) {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
 `;
 
 const NightowlsGoaSection = styled.section`
@@ -31,23 +45,46 @@ const NightowlsGoaSection = styled.section`
   // border: 3px solid green;
   flex-direction: column;
   margin-top: 40px;
+  @media (max-width: 500px) {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
 `;
 
 const EventsSubHeading = styled.h4`
   color: white;
   font-size: 30px;
+
+  @media (max-width: 500px) {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 `;
 
 const StrictlyTechnoFlyer = styled(Image)`
   margin: auto;
   height: 100%;
   width: auto;
+
+  @media (max-width: 500px) {
+    height: 300px;
+  }
 `;
 
 const NightowlsGoaFlyer = styled(Image)`
   margin: auto;
   height: 100%;
   width: auto;
+
+  @media (max-width: 500px) {
+    height: 300px;
+  }
 `;
 
 const EventsMainHeading = styled.h2`
@@ -59,6 +96,12 @@ const EventsMainHeading = styled.h2`
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
   margin-left: 33%;
   width: 33%;
+
+  @media (max-width: 500px) {
+    margin-top: 70px;
+    margin-left: 0;
+    width: 100%;
+  }
 `;
 
 const EventLink = styled(Link)``;

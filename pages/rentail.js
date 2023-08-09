@@ -14,6 +14,9 @@ const RentailContainer = styled.div`
   color: white;
   width: 100%;
   justify-content: space-around;
+  @media (max-width: 500px) {
+    top: 2%;
+  }
 `;
 
 const RentailSection = styled.section`
@@ -76,6 +79,9 @@ const ImageSection = styled.section`
 const DecoMovie = styled.video`
   width: 50%;
   margin-top: 20px;
+  @media (max-width: 500px) {
+    width: 90%;
+  }
 `;
 
 const LightMovie = styled.video`
@@ -85,6 +91,9 @@ const LightMovie = styled.video`
 
 const AnkerLink = styled.p`
   padding-top: 200px;
+  @media (max-width: 500px) {
+    padding-top: 50px;
+  }
 `;
 
 export default function Rentail() {

@@ -50,9 +50,23 @@ export const NavLink = styled(Link)`
     border-right: 5px solid rgb(139, 0, 0);
     width: max-content;
   }
+
+  @media (max-width: 500px) {
+    color: whitesmoke;
+    margin: 10px;
+    // margin-left: 10px;
+    text-align: left;
+    padding: 0;
+
+    &:hover,
+    &:focus {
+      border-left: 0;
+      border-right: 0;
+    }
+  }
 `;
 
-const SubNavItemListAgency = styled.ul`
+export const SubNavItemListAgency = styled.ul`
   display: ${({ AgencyIsOpen }) => (AgencyIsOpen ? "block" : "none")};
   z-index: +2;
   padding: 5px;
@@ -66,7 +80,7 @@ const SubNavItemListEvents = styled.ul`
   margin-top: 0px;
 `;
 
-const SubNavItem = styled.li`
+export const SubNavItem = styled.li`
   list-style: none;
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -80,6 +94,14 @@ const SubNavItem = styled.li`
     color: rgb(139, 0, 0);
     border-left: 5px solid rgb(139, 0, 0);
     border-right: 5px solid rgb(139, 0, 0);
+  }
+
+  @media (max-width: 500px) {
+    &:hover,
+    &:focus {
+      border-left: 0;
+      border-right: 0;
+    }
   }
 `;
 
@@ -98,7 +120,7 @@ const SubNavItemInProg = styled.button`
   font-family: Blippo;
 `;
 
-const SubNavLink = styled(Link)`
+export const SubNavLink = styled(Link)`
   text-decoration: none;
   color: white;
   padding: 5px;
@@ -106,6 +128,10 @@ const SubNavLink = styled(Link)`
   &:hover,
   &:focus {
     color: rgb(139, 0, 0);
+  }
+
+  @media (max-width: 500px) {
+    font-size: 20px;
   }
 `;
 
@@ -115,7 +141,7 @@ const SubNavLinkInProg = styled.li`
   padding: 5px;
 `;
 
-const SubNavItemListRentailAndService = styled.ul`
+export const SubNavItemListRentailAndService = styled.ul`
   display: ${({ RentailAndServiceIsOpen }) =>
     RentailAndServiceIsOpen ? "block" : "none"};
   z-index: 2;
@@ -126,6 +152,7 @@ const SubNavItemListRentailAndService = styled.ul`
 export default function Navigation() {
   const [EventsIsOpen, setEventsIsOpen] = useState(false);
   const [AgencyIsOpen, setAgencyIsOpen] = useState(false);
+
   const [RentailAndServiceIsOpen, setRentailAndServiceIsOpen] = useState(false);
 
   const toggleEventsMenu = () => {
