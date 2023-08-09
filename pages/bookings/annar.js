@@ -108,7 +108,6 @@ export const Bio = styled.text`
     width: 90%;
     height: fit-content;
     // text-align: block;
-
     padding: 10px;
   }
 `;
@@ -132,13 +131,15 @@ export const Links = styled.section`
   @media (max-width: 500px) {
     margin: 0;
     position: absolute;
-    top: 130%;
-    left: 50%;
-    transform: translate(-50%);
-    font-size: 16px;
-    width: 90%;
-    justify-content: center;
-    padding-bottom: 50px;
+    margin-left: 0;
+    flex-direction: column;
+    // top: 130%;
+    right: -5px;
+    // transform: translate(-5%);
+    width: auto;
+    bottom: auto;
+    top: 50px;
+    // width: 90%;
   }
 `;
 
@@ -196,6 +197,7 @@ export const SocialsIcon = styled(Image)`
     width: 50px;
     height: 50px;
     margin: 20px;
+    margin-bottom: 0;
   }
 `;
 
