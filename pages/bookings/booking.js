@@ -17,6 +17,15 @@ const BookingForm = styled.form`
   gap: 5px;
   top: 17%;
   padding-bottom: 150px;
+
+  @media (max-width: 500px) {
+    width: 90%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
 `;
 
 const SendButton = styled.button`
@@ -77,6 +86,11 @@ const FormInput = styled.input`
     outline: none;
     border-color: darkred;
   }
+
+  @media (max-width: 500px) {
+    width: 50%;
+    font-size: 16px;
+  }
 `;
 
 const FormSubHeading = styled.h4`
@@ -108,6 +122,12 @@ const FormHeading = styled.h2`
   text-align: center;
   letter-spacing: 2px;
   margin-bottom: 5px;
+
+  @media (max-width: 500px) {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    padding: 0;
+  }
 `;
 
 const BackButton = styled(Link)`
@@ -121,6 +141,10 @@ const BackButton = styled(Link)`
   &:hover {
     border-color: darkred;
     color: darkred;
+  }
+
+  @media (max-width: 500px) {
+    margin-bottom: 70px;
   }
 `;
 
