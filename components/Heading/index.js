@@ -20,10 +20,11 @@ const MainHeading = styled.h1`
     // display: flex;
     font-size: 30px;
     // justify-content: flex-end;
-    width: fit-content;
+    width: 100%;
     position: fixed;
     right: 10px;
-    margin-left: 45px;
+    padding-left: 60px;
+
     padding-bottom: 10px;
   }
 `;
