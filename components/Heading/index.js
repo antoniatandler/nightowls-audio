@@ -23,6 +23,7 @@ const MainHeading = styled.h1`
     width: fit-content;
     position: fixed;
     right: 10px;
+    margin-left: 45px;
     padding-bottom: 10px;
   }
 `;
