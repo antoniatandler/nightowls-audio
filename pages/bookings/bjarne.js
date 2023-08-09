@@ -68,7 +68,7 @@ export default function Bjarne() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link
             href="https://www.instagram.com/bjarne_infected/"
             target="_blank"
@@ -80,7 +80,7 @@ export default function Bjarne() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           <Link
             href="https://www.facebook.com/Infected.Rostock"
             target="_blank"
@@ -92,7 +92,7 @@ export default function Bjarne() {
               alt="Facebook-Icon"
             />
           </Link>
-          Facebook
+          {/* Facebook */}
         </Links>
         <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>
