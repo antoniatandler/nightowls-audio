@@ -65,7 +65,7 @@ export default function Vanta() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link href="https://www.instagram.com/vantavirtu/" target="_blank">
             <SocialsIcon
               src="/icons/instagram.png"
@@ -74,7 +74,7 @@ export default function Vanta() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           {/* <Link href="https://www.facebook.com" target="_blank">
             <SocialsIcon
               src="/../public/icons/facebook.png"

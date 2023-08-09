@@ -67,7 +67,7 @@ export default function Psylence() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link
             href="https://www.instagram.com/psylence.music/"
             target="_blank"
@@ -79,7 +79,7 @@ export default function Psylence() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           {/* <Link href="https://www.facebook.com">
             <SocialsIcon
               src="/icons/facebook.png"

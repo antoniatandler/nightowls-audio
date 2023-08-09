@@ -56,7 +56,7 @@ export default function Gandaalv() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link
             href="https://www.instagram.com/frankczer_music/"
             target="_blank"
@@ -68,7 +68,7 @@ export default function Gandaalv() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           {/*<Link href="https://www.facebook.com" target="_blank">
             <SocialsIcon
               src="/../public/icons/facebook.png"

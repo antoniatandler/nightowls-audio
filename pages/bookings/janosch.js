@@ -72,7 +72,7 @@ export default function Janosch() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link href="https://www.instagram.com/janosch.music/" target="_blank">
             <SocialsIcon
               src="/icons/instagram.png"
@@ -81,7 +81,7 @@ export default function Janosch() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           {/*  <Link href="https://www.facebook.com">
             <SocialsIcon
               src="/icons/facebook.png"

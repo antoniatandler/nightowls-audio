@@ -53,7 +53,7 @@ export default function KlexGeist() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link href="https://www.instagram.com/klex_geist/" target="_blank">
             <SocialsIcon
               src="/icons/instagram.png"
@@ -62,7 +62,7 @@ export default function KlexGeist() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           {/* <Link href="https://www.facebook.com">
             <SocialsIcon
               src="/../public/icons/facebook.png"

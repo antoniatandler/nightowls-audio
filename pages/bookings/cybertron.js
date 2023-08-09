@@ -70,7 +70,7 @@ export default function Cybertron() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link
             href="https://www.instagram.com/cybertron_music/"
             target="_blank"
@@ -82,7 +82,7 @@ export default function Cybertron() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           <Link
             href="https://www.facebook.com/profile.php?id=100063529300398"
             target="_blank"
@@ -94,7 +94,7 @@ export default function Cybertron() {
               alt="Facebook-Icon"
             />
           </Link>
-          Facebook
+          {/* Facebook */}
         </Links>
         <BookingButton href="./booking">booking</BookingButton>
       </MainContainer>

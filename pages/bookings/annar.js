@@ -9,11 +9,14 @@ export const MainContainer = styled.div`
   width: 100%;
   height: 550px;
   margin-top: 170px;
-  // border: 3px solid pink;
   display: flex;
   color: rgba(255, 255, 255, 0.75);
-  // justify-content: space-evenly;
-  // align-items: center;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+    height: fit-content;
+    flex-direction: column;
+  }
 `;
 
 export const SingleArtistImage = styled(Image)`
@@ -23,6 +26,12 @@ export const SingleArtistImage = styled(Image)`
   width: 300px;
   // border: 3px solid green;
   margin-top: 30px;
+
+  @media (max-width: 500px) {
+    left: 50%;
+    transform: translate(-50%);
+    top: 5%;
+  }
 `;
 
 export const HeadingSection = styled.section`
@@ -35,6 +44,14 @@ export const HeadingSection = styled.section`
   text-align: center;
   // margin-left: 5%;
   justify-content: space-around;
+  @media (max-width: 500px) {
+    position: absolute;
+
+    padding-top: 300px;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+  }
 `;
 
 export const Name = styled.h2`
@@ -43,6 +60,9 @@ export const Name = styled.h2`
   margin: auto;
   margin-top: 0;
   // letter-spacing: 25px;
+  @media (max-width: 500px) {
+    font-size: 40px;
+  }
 `;
 
 export const Genre = styled.h3`
@@ -51,6 +71,13 @@ export const Genre = styled.h3`
   // margin: auto;
   margin-top: 5px;
   letter-spacing: 2px;
+  @media (max-width: 500px) {
+    font-size: 20px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+  }
 `;
 
 export const Bio = styled.text`
@@ -70,6 +97,20 @@ export const Bio = styled.text`
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+
+  @media (max-width: 500px) {
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    font-size: 16px;
+    width: 90%;
+    height: fit-content;
+    // text-align: block;
+
+    padding: 10px;
+  }
 `;
 
 export const Links = styled.section`
@@ -87,6 +128,18 @@ export const Links = styled.section`
   width: 70%;
   margin-left: 5%;
   bottom: 50px;
+
+  @media (max-width: 500px) {
+    margin: 0;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    width: 90%;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
 `;
 
 export const BookingButton = styled(Link)`
@@ -114,6 +167,18 @@ export const BookingButton = styled(Link)`
     color: white;
     border-color: white;
   }
+
+  @media (max-width: 500px) {
+    position: relative;
+    // top: 150%;
+    font-size: 16px;
+    width: 70%;
+    margin-top: 120px;
+    // transform: translate(-50%);
+    z-index: 2;
+    background-color: darkred;
+    color: black;
+  }
 `;
 
 export const SocialsIcon = styled(Image)`
@@ -125,6 +190,12 @@ export const SocialsIcon = styled(Image)`
 
   &:hover {
     background-color: darkred;
+  }
+
+  @media (max-width: 500px) {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
   }
 `;
 
@@ -170,7 +241,7 @@ export default function Annår() {
               alt="Soundcloud-Icon"
             />
           </Link>
-          Soundcloud
+          {/* Soundcloud */}
           <Link href="https://www.instagram.com/annaewld/" target="_blank">
             <SocialsIcon
               src="icons/instagram.png"
@@ -179,7 +250,7 @@ export default function Annår() {
               alt="Instagram-Icon"
             />
           </Link>
-          Instagram
+          {/* Instagram */}
           {/* <Link href="https://www.facebook.com" target="_blank">
             <SocialsIcon
               src="icons/facebook.png"
