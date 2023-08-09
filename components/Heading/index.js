@@ -16,11 +16,13 @@ const MainHeading = styled.h1`
 
   @media (max-width: 500px) {
     padding-top: 10px;
-    padding-right: 10px;
-    display: flex;
+    // padding-right: 10px;
+    // display: flex;
     font-size: 30px;
-    justify-content: flex-end;
-    width: 100%;
+    // justify-content: flex-end;
+    width: fit-content;
+    position: fixed;
+    right: 10px;
     padding-bottom: 10px;
   }
 `;

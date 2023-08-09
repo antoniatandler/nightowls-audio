@@ -97,7 +97,10 @@ export default function BurgerMenu() {
         <MenuItem onMouseEnter={toggleAgencyMenu}>
           <NavLink href="/bookings/bookings">NIGHTOWLS AGENCY</NavLink>
         </MenuItem>
-        <SubNavItemListAgency AgencyIsOpen={AgencyIsOpen}>
+        <SubNavItemListAgency
+          AgencyIsOpen={AgencyIsOpen}
+          onMouseLeave={toggleAgencyMenu}
+        >
           <SubNavItem>
             <SubNavLink href="/bookings/annar">ANNÅR</SubNavLink>
           </SubNavItem>
@@ -137,6 +140,7 @@ export default function BurgerMenu() {
         </MenuItem>
         <SubNavItemListRentailAndService
           RentailAndServiceIsOpen={RentailAndServiceIsOpen}
+          onMouseLeave={toggleRentailAndServiceMenu}
         >
           <SubNavItem>
             <SubNavLink href="/rentail/#equipment">EQUIPMENT</SubNavLink>
