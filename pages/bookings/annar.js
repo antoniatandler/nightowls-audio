@@ -109,6 +109,8 @@ export const Bio = styled.text`
     height: fit-content;
     // text-align: block;
     padding: 10px;
+    padding-bottom: 50px;
+    border-bottom: 0;
   }
 `;
 
