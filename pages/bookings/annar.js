@@ -103,7 +103,7 @@ export const Bio = styled.text`
     transform: translate(-50%);
     margin: 0;
     position: absolute;
-    top: 70%;
+    top: 90%;
     font-size: 16px;
     width: 90%;
     height: fit-content;

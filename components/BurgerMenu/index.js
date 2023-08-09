@@ -17,7 +17,7 @@ const HeadingContainer = styled.header`
   position: fixed;
   display: none;
   justify-content: space-between;
-  top: 15px;
+  top: 10px;
   margin-top: -15px;
   padding-top: 10px;
   padding-bottom: 10px;

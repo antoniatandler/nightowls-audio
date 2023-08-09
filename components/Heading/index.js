@@ -15,17 +15,17 @@ const MainHeading = styled.h1`
   z-index: +4;
 
   @media (max-width: 500px) {
-    padding-top: 10px;
+    // padding-top: 10px;
     // padding-right: 10px;
     // display: flex;
-    font-size: 30px;
+    font-size: 20px;
     // justify-content: flex-end;
     width: 100%;
     position: fixed;
     right: 10px;
-    padding-left: 60px;
-
-    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-bottom: 5px;
+    padding-top: 12px;
   }
 `;
 
